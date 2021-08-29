@@ -3,7 +3,8 @@
 	font-family: roboto, sans-serif;
 	text-align: left;
 	width: 80%;
-	margin: 5rem;
+	margin: auto;
+	padding: 1rem;
 }
 
 :root {
