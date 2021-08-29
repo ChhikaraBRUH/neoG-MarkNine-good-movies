@@ -1,2 +1,2 @@
 # neoG-MarkNine-good-movies
-Created with CodeSandbox
+Good Movies is my personal favourite movies recommendation app made in React.
