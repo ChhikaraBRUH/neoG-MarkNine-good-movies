@@ -96,12 +96,6 @@ const allGenres = {
 	]
 };
 
-// const moviesDict = {
-//   "superhero": ["Black Panther", "Logan", "Deadpool", "Avengers Endgame"],
-//   "comedy": ["The Hangover", "Bad Neighbour", "Game Night", "American Pie"],
-//   "thriller": ["Tenet", "The Platform", "Bird Box", "Fractured"]
-// }
-
 export default function App() {
 	const [genre, setGenre] = useState("superhero");
 	function onClickHandler(genre) {
