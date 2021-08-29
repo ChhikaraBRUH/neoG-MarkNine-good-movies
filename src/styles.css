@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
+.App {
+	font-family: roboto, sans-serif;
+	text-align: left;
+	width: 80%;
+	margin: 5rem;
+}
+
+:root {
+	--primary-color: #3b82f6;
+	--secondary-color: #bfdbfe;
+	--black: #000000;
+	--white: #ffffff;
+	--gray: #e5e7eb;
+}
+
+body {
+	font-family: roboto, sans-serif;
+	text-align: center;
+	background-color: var(--gray);
+}
+
+.genreSelectorButton {
+	padding: 0.5rem;
+	margin: 1rem 1rem 1rem 0rem;
+	cursor: pointer;
+	border-radius: 0.5rem;
+	border: solid 2px var(--primary-color);
+	background-color: var(--secondary-color);
+	color: var(--black);
+	font: bold;
+}
+
+.listItem {
+	list-style: none;
+	padding: 1rem;
+	border-radius: 1rem;
+	border: 2px solid var(--secondary-color);
+	width: 90%;
+	margin: 1rem 0rem;
+	background-color: var(--secondary-color);
+}
+
+.nameTxt {
+	font-size: 1.5rem;
+	font: bold;
+}
+
+.ratingTxt {
+	font-size: 1rem;
+	color: var(--white);
+	padding: 0rem 0.5rem 0rem 0.5rem;
+	margin: 1rem;
+	background-color: var(--primary-color);
+	border-radius: 1rem;
+}
+
+.descriptionTxt {
+	margin-top: 1rem;
+}
+
+.trailerLink {
+	text-decoration: none;
+	padding: 0.5rem;
+	border-radius: 1rem;
+	border: solid 0px var(--primary-color);
+	background-color: var(--primary-color);
+	color: var(--gray);
+	font: bold;
+}
+
+.trailerDiv {
+	margin: 1rem 0rem 0rem 0rem;
+}
+
+img {
+	margin: 1rem 1rem 1rem 0rem;
+	width: 1.8rem;
+}
